@@ -8,16 +8,16 @@ const Main = () => {
       <Head title="Hello" />
       <div
         id="title"
-        className="bg-indigo-800 text-white font-bold rounded-lg border shadow-lg p-10"
+        className="bg-indigo-800 text-white font-bold rounded-lg border shadow-lg p-2"
       >
         Main
       </div>
       <div>
-          <Link to="/dashboard/">Go To Root</Link>
-        </div>
-        <div>
-          <Link to="/dashboard/profile/385666b1-bff5-11e9-95ba-1bf845c18f8d">Go To Profile</Link>{' '}
-        </div>
+        <Link to="/dashboard/">Go To Root</Link>
+      </div>
+      <div>
+        <Link to="/dashboard/profile/f226687f-867b-4e9a-9bae-607bb6e65a25">Go To Profile</Link>{' '}
+      </div>
     </div>
   )
 }
