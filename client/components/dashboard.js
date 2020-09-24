@@ -13,7 +13,7 @@ const Dashboard = () => {
         Dashboard
       </div>
       <div>
-        <Link to="/dashboard/profile/385666b1-bff5-11e9-95ba-1bf845c18f8d">Go to Profile</Link>
+        <Link to="/dashboard/profile/f226687f-867b-4e9a-9bae-607bb6e65a25">Go to Profile</Link>
       </div>
       <div>
         <Link to="/dashboard/main">Go to Main</Link>
