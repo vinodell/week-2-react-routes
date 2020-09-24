@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, useParams } from 'react-router-dom'
 import Head from './head'
-//
+
 const Profile = () => {
   const { user } = useParams()
   return (
@@ -15,11 +15,11 @@ const Profile = () => {
         <div id="username">{user}</div>
       </div>
       <div>
-          <Link to="/dashboard/">Go To Root</Link>
-        </div>
+        <Link to="/dashboard/">Go To Root</Link>
+       </div>
         <div>
-          <Link to="/dashboard/main">Go to Main</Link>
-        </div>
+        <Link to="/dashboard/main">Go to Main</Link>
+      </div>
     </div>
   )
 }
